@@ -1,5 +1,5 @@
 // Crée WebSocket connection.
-const socket = new WebSocket('ws://137.194.173.31:5000');
+const socket = new WebSocket('ws://192.168.1.200:5000');
 
 const stick = document.querySelector('.stick');
 const stickOverlay = document.querySelector('.stickOverlay');
